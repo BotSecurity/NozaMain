@@ -1,6 +1,6 @@
 ModIDS = {
-    [442352485] = true, -- Alt main
-    [3070274180] = true, -- lexiiiii165
+    442352485, -- Alt main
+    3070274180, -- lexiiiii165
 
 }
 
