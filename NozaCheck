@@ -1,6 +1,6 @@
 ModIDS = {
-442352485,
-3070274180,
+442352485, -- Alt Main
+
 }
 
 return ModIDS
