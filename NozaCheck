@@ -4,4 +4,25 @@ ModIDS = {
 3741761673,
 }
 
+    BoxingChampion = {
+    601414537,
+    }
+
+--\\ Don't mess with anything below this
+function swagnames()
+	for _, Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(ModIDS, Player.UserId) then
+			if Player.Character and Player.Character.Parent.Name == 'Players' then
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = '[🍆💦]' .. Player.DisplayName
+			end
+		elseif table.find(BoxingChampion, Player.UserId) then
+			if Player.Character and Player.Character.Parent.Name == 'Players' then
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = '[👑]' .. Player.DisplayName
+			end
+		end
+	end
+end
+
+local success, err = pcall(swagnames)
+
 return ModIDS
