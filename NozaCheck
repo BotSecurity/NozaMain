@@ -1,2 +1,5 @@
-ModIDS = {3070274180, 789012}
+ModIDS = {
+3070274180,
+
+}
 return ModIDS
