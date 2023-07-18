@@ -1,6 +1,1 @@
-ModIDS = {
-442352485, -- Alt Main
-
-}
-
-return ModIDS
+{3070274180, 789012}
