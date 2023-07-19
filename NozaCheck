@@ -1,11 +1,10 @@
 ModIDS = {
 12594581,
 3741761673,
+442352485,
 }
 
-    BoxingChampion = {
-    442352485,
-    }
+
 
 --\\ Don't mess with anything below this
 function swagnames()
